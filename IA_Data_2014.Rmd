@@ -37,3 +37,20 @@ amistad_fig1
 hartford_fig1
 bhs_fig1
 ```
+
+You can see a lot from the data, what is most interesting is if you look at the actual shape of the curves
+```{r}
+up_fig2 <- ggplot(UP, aes(x=Percentage)) + geom_density()
+amistad_fig2 <- ggplot(AMISTAD, aes(x=Percentage)) + geom_density()
+hartford_fig2 <- ggplot(HARTFORD, aes(x=Percentage)) + geom_density()
+bhs_fig2 <- ggplot(BHS, aes(x=Percentage)) + geom_density()
+
+up_fig2
+amistad_fig2
+hartford_fig2
+bhs_fig2
+
+```
+
+
+
